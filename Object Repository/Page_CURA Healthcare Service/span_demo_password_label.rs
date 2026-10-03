@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Login</name>
+   <name>span_demo_password_label</name>
    <tag></tag>
-   <elementGuidId>621d2dfb-3b61-4aab-bd03-db67f4829e23</elementGuidId>
+   <elementGuidId>f4cf16c2-f3a2-4745-89e3-ad84c47b04c8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@href = 'profile.php#login' and (text() = 'Login' or . = 'Login')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>[href=&quot;profile\.php\#login&quot;]</value>
+         <value>#demo_password_label</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@href = 'profile.php#login']</value>
+         <value>//*[@id = 'demo_password_label']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Login&quot;i]</value>
+         <value>#demo_password_label</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,63 +28,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>bda33a14-e80c-4133-9517-88d3b5fc7292</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>profile.php#login</value>
-      <webElementGuid>6c4fea0b-b8ef-4316-bc5a-8f99d49dce11</webElementGuid>
+      <value>span</value>
+      <webElementGuid>dcf58964-feb0-41d1-bde2-5c3d621f8303</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>class</name>
       <type>Main</type>
-      <value>$('#menu-close').click();</value>
-      <webElementGuid>e55cce54-c6ac-4867-af4f-2389ebda7d73</webElementGuid>
+      <value>input-group-addon</value>
+      <webElementGuid>1e2f93af-b99a-4c18-b962-12045a5a02b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>dbb4110c-15c7-4997-aff6-1bb55f822d0e</webElementGuid>
+      <value>demo_password_label</value>
+      <webElementGuid>a3b42119-6809-41e6-960b-5f2ee5f6c538</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-7bf1ef22e954ebd77cdc3ad6f4ff3cef</value>
-      <webElementGuid>9d9cb3d6-f0ba-4493-94c2-fb1c432bed5b</webElementGuid>
+      <value>md5.v1-73863efb30675236b96848c302e4a90f</value>
+      <webElementGuid>8841dbf9-4698-4bc6-a9b7-b45619ea4bf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@href = 'profile.php#login']</value>
-      <webElementGuid>901881ed-a9dc-47af-a3cf-639ffe30c501</webElementGuid>
+      <value>//*[@id = 'demo_password_label']</value>
+      <webElementGuid>4e35870f-a4d6-4bcd-a7bf-2c1a5f77e3ec</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@href = 'profile.php#login']</value>
-      <webElementGuid>0c2c01b4-da85-45ad-8e2e-34e900c9128c</webElementGuid>
+      <value>//*[@id = 'demo_password_label']</value>
+      <webElementGuid>53f76cb9-cf6d-43f3-b47b-ba87024831e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'profile.php#login' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>65304e85-fe85-4739-8090-69e5a0bd7a09</webElementGuid>
+      <value>//span[@id = 'demo_password_label']</value>
+      <webElementGuid>3dc58677-205c-461d-b140-dc2ad00e6520</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

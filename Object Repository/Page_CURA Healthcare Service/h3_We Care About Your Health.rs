@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_fa fa-bars</name>
+   <name>h3_We Care About Your Health</name>
    <tag></tag>
-   <elementGuidId>54baeb88-f3aa-4157-86fc-8faafdfebc20</elementGuidId>
+   <elementGuidId>21726dcb-eeac-4552-bc63-afcc71fa15ea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
+         <value>//*[(text() = 'We Care About Your Health' or . = 'We Care About Your Health')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.fa-bars</value>
+         <value>h3</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
+         <value>//h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;&quot;i]</value>
+         <value>internal:role=heading[name=&quot;We Care About Your Health&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,39 +32,47 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
-      <webElementGuid>f78616b8-6fb3-498d-8d6f-ff8e97d6b5b7</webElementGuid>
+      <value>h3</value>
+      <webElementGuid>c42bbc53-7958-4645-ba13-45e07f21d9b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>text</name>
       <type>Main</type>
-      <value>fa fa-bars</value>
-      <webElementGuid>1b65052f-dbf4-4129-bf1f-735605ffcd37</webElementGuid>
+      <value>We Care About Your Health</value>
+      <webElementGuid>72f8be83-0799-4a03-96f5-dd6258478017</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-560039917a3e8d1d57a47f2d00e1e6e8</value>
-      <webElementGuid>1b986d54-d6d1-40ed-a929-3feb2f3accf1</webElementGuid>
+      <value>md5.v1-97d29a63790eb2585213dd13f26320bc</value>
+      <webElementGuid>b658d045-9f3e-4556-a0d3-75304c6b78f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
-      <webElementGuid>61607d5b-7b78-4f58-80ee-1e933468a43a</webElementGuid>
+      <value>//h3</value>
+      <webElementGuid>9aaf3b15-0bf3-4f35-8a56-bdde2fbebc54</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
-      <webElementGuid>e6b8da51-5b61-41aa-b534-4b8bf49692e7</webElementGuid>
+      <value>//h3</value>
+      <webElementGuid>422728f7-0d9c-49f7-a3fc-dbf1019ac9ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'We Care About Your Health' or . = 'We Care About Your Health')]</value>
+      <webElementGuid>7457a306-0427-49c4-84fe-d464d3feb35c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

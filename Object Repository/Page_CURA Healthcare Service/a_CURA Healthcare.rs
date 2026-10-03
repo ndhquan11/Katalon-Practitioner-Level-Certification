@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Login</name>
+   <name>a_CURA Healthcare</name>
    <tag></tag>
-   <elementGuidId>621d2dfb-3b61-4aab-bd03-db67f4829e23</elementGuidId>
+   <elementGuidId>51e7105f-6208-452a-9aeb-52cc41e24078</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@href = 'profile.php#login' and (text() = 'Login' or . = 'Login')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>[href=&quot;profile\.php\#login&quot;]</value>
+         <value>.sidebar-brand [href=&quot;\.\/&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@href = 'profile.php#login']</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' sidebar-brand ')]//*[@href = './']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Login&quot;i]</value>
+         <value>internal:role=link[name=&quot;CURA Healthcare&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -33,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>bda33a14-e80c-4133-9517-88d3b5fc7292</webElementGuid>
+      <webElementGuid>fdf00f86-97dd-4c7a-a908-f68aca4fde22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>profile.php#login</value>
-      <webElementGuid>6c4fea0b-b8ef-4316-bc5a-8f99d49dce11</webElementGuid>
+      <value>./</value>
+      <webElementGuid>c303539f-0b3b-439a-89d2-f64527fd002d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,46 +45,46 @@
       <name>onclick</name>
       <type>Main</type>
       <value>$('#menu-close').click();</value>
-      <webElementGuid>e55cce54-c6ac-4867-af4f-2389ebda7d73</webElementGuid>
+      <webElementGuid>fd9c5572-b16f-459c-a7ae-5054f88225c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>dbb4110c-15c7-4997-aff6-1bb55f822d0e</webElementGuid>
+      <value>CURA Healthcare</value>
+      <webElementGuid>95662a4a-6262-400d-83c8-ce7209224bda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-7bf1ef22e954ebd77cdc3ad6f4ff3cef</value>
-      <webElementGuid>9d9cb3d6-f0ba-4493-94c2-fb1c432bed5b</webElementGuid>
+      <value>md5.v1-7b3519f7b1dd495be7e8e7517fb8fffe</value>
+      <webElementGuid>114263b2-db21-4174-a1a7-1ad547a08caa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@href = 'profile.php#login']</value>
-      <webElementGuid>901881ed-a9dc-47af-a3cf-639ffe30c501</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' sidebar-brand ')]//*[@href = './']</value>
+      <webElementGuid>b572470b-64c8-4bdd-b2e5-cabd514086af</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@href = 'profile.php#login']</value>
-      <webElementGuid>0c2c01b4-da85-45ad-8e2e-34e900c9128c</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' sidebar-brand ')]//*[@href = './']</value>
+      <webElementGuid>018aa500-69ec-4914-ab10-10b1b92aa60b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'profile.php#login' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>65304e85-fe85-4739-8090-69e5a0bd7a09</webElementGuid>
+      <value>//a[@href = './' and (text() = 'CURA Healthcare' or . = 'CURA Healthcare')]</value>
+      <webElementGuid>5355cb90-8426-4cb5-8fc7-88e8d6ef40aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

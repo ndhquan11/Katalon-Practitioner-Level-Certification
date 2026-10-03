@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Login</name>
+   <name>label_Apply for hospital readmission</name>
    <tag></tag>
-   <elementGuidId>621d2dfb-3b61-4aab-bd03-db67f4829e23</elementGuidId>
+   <elementGuidId>5f9734a1-be02-4e8a-9f03-a1f24a059004</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@href = 'profile.php#login' and (text() = 'Login' or . = 'Login')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>[href=&quot;profile\.php\#login&quot;]</value>
+         <value>.checkbox-inline</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@href = 'profile.php#login']</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' checkbox-inline ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Login&quot;i]</value>
+         <value>internal:text=&quot;Apply for hospital readmission&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,63 +28,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>bda33a14-e80c-4133-9517-88d3b5fc7292</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>profile.php#login</value>
-      <webElementGuid>6c4fea0b-b8ef-4316-bc5a-8f99d49dce11</webElementGuid>
+      <value>label</value>
+      <webElementGuid>e2464f59-53bc-4a11-8c7b-b8fa06990581</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>for</name>
       <type>Main</type>
-      <value>$('#menu-close').click();</value>
-      <webElementGuid>e55cce54-c6ac-4867-af4f-2389ebda7d73</webElementGuid>
+      <value>chk_hospotal_readmission</value>
+      <webElementGuid>80363cb8-8d7a-4200-bba1-3d92630b122d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>checkbox-inline</value>
+      <webElementGuid>507b472d-ac53-4a6d-abe7-17bb41a617bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>dbb4110c-15c7-4997-aff6-1bb55f822d0e</webElementGuid>
+      <value>
+                             Apply for hospital readmission
+                        </value>
+      <webElementGuid>bb9b19b9-4b3f-4088-8ca4-0ccdfbe7bc09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-7bf1ef22e954ebd77cdc3ad6f4ff3cef</value>
-      <webElementGuid>9d9cb3d6-f0ba-4493-94c2-fb1c432bed5b</webElementGuid>
+      <value>md5.v1-37df5c1840eb803139fc188d832af96c</value>
+      <webElementGuid>c466b437-5506-4660-96c3-10860ac34202</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@href = 'profile.php#login']</value>
-      <webElementGuid>901881ed-a9dc-47af-a3cf-639ffe30c501</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' checkbox-inline ')]</value>
+      <webElementGuid>50abd5c0-7dad-4009-b340-202217f7a72a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@href = 'profile.php#login']</value>
-      <webElementGuid>0c2c01b4-da85-45ad-8e2e-34e900c9128c</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' checkbox-inline ')]</value>
+      <webElementGuid>287c8026-8a72-4ee0-9f18-0f25ce766cfb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'profile.php#login' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>65304e85-fe85-4739-8090-69e5a0bd7a09</webElementGuid>
+      <value>//label[(text() = '
+                             Apply for hospital readmission
+                        ' or . = '
+                             Apply for hospital readmission
+                        ')]</value>
+      <webElementGuid>35691adf-39f7-482d-b7b0-1687a877bc16</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

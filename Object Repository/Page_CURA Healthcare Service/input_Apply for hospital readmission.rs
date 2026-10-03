@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Login</name>
+   <name>input_Apply for hospital readmission</name>
    <tag></tag>
-   <elementGuidId>621d2dfb-3b61-4aab-bd03-db67f4829e23</elementGuidId>
+   <elementGuidId>1fdea4ba-ed1d-4573-add6-e0a43bc5599d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = 'profile.php#login' and (text() = 'Login' or . = 'Login')]</value>
+         <value>//*[@type = 'checkbox' and @id = 'chk_hospotal_readmission' and @name = 'hospital_readmission']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>[href=&quot;profile\.php\#login&quot;]</value>
+         <value>#chk_hospotal_readmission</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@href = 'profile.php#login']</value>
+         <value>//*[@id = 'chk_hospotal_readmission']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Login&quot;i]</value>
+         <value>internal:label=&quot;Apply for hospital readmission&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,63 +32,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>bda33a14-e80c-4133-9517-88d3b5fc7292</webElementGuid>
+      <value>input</value>
+      <webElementGuid>63481ffd-0109-4e1a-9b73-867dd76bf4ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>type</name>
       <type>Main</type>
-      <value>profile.php#login</value>
-      <webElementGuid>6c4fea0b-b8ef-4316-bc5a-8f99d49dce11</webElementGuid>
+      <value>checkbox</value>
+      <webElementGuid>3dd36936-6082-4084-a6e7-6e5b57194ff8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>chk_hospotal_readmission</value>
+      <webElementGuid>d9087b44-c4ef-4771-8772-fc3ffecefa93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>hospital_readmission</value>
+      <webElementGuid>4cdd758a-0b75-4e93-b6ad-34e80fbae7fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>value</name>
       <type>Main</type>
-      <value>$('#menu-close').click();</value>
-      <webElementGuid>e55cce54-c6ac-4867-af4f-2389ebda7d73</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>dbb4110c-15c7-4997-aff6-1bb55f822d0e</webElementGuid>
+      <value>Yes</value>
+      <webElementGuid>efd655f8-ba8f-4441-be8c-d7ab145b71e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-7bf1ef22e954ebd77cdc3ad6f4ff3cef</value>
-      <webElementGuid>9d9cb3d6-f0ba-4493-94c2-fb1c432bed5b</webElementGuid>
+      <value>md5.v1-ebfd2c4e13bd45e63c27c8ad604cad35</value>
+      <webElementGuid>0ab590bc-49a8-40dc-816c-ea2daed648a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@href = 'profile.php#login']</value>
-      <webElementGuid>901881ed-a9dc-47af-a3cf-639ffe30c501</webElementGuid>
+      <value>//*[@id = 'chk_hospotal_readmission']</value>
+      <webElementGuid>a501554c-f246-413e-9654-581afc02093c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@href = 'profile.php#login']</value>
-      <webElementGuid>0c2c01b4-da85-45ad-8e2e-34e900c9128c</webElementGuid>
+      <value>//*[@id = 'chk_hospotal_readmission']</value>
+      <webElementGuid>82e9147c-8dd7-4fbe-b727-ebc27e88f325</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'profile.php#login' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>65304e85-fe85-4739-8090-69e5a0bd7a09</webElementGuid>
+      <value>//input[@type = 'checkbox' and @id = 'chk_hospotal_readmission' and @name = 'hospital_readmission']</value>
+      <webElementGuid>f2e9beaf-f41a-4ac5-8cb9-3aa81d311701</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

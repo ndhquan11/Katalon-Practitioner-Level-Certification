@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_fa fa-bars</name>
+   <name>h2_Login</name>
    <tag></tag>
-   <elementGuidId>54baeb88-f3aa-4157-86fc-8faafdfebc20</elementGuidId>
+   <elementGuidId>40356538-2f4f-4c3f-8c7c-86be5d277b3e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>.fa-bars</value>
+         <value>h2</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
+         <value>//h2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;&quot;i]</value>
+         <value>internal:role=heading[name=&quot;Login&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,39 +28,47 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
-      <webElementGuid>f78616b8-6fb3-498d-8d6f-ff8e97d6b5b7</webElementGuid>
+      <value>h2</value>
+      <webElementGuid>00d04688-6759-4bff-977f-c98a70ada4f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>text</name>
       <type>Main</type>
-      <value>fa fa-bars</value>
-      <webElementGuid>1b65052f-dbf4-4129-bf1f-735605ffcd37</webElementGuid>
+      <value>Login</value>
+      <webElementGuid>2fd456b8-8220-47de-acb0-1d26eebe3532</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-560039917a3e8d1d57a47f2d00e1e6e8</value>
-      <webElementGuid>1b986d54-d6d1-40ed-a929-3feb2f3accf1</webElementGuid>
+      <value>md5.v1-96e021ee8fe4b2f311baceeb1509f3fe</value>
+      <webElementGuid>5be20e33-ff07-4b13-b0e4-37101c075b1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
-      <webElementGuid>61607d5b-7b78-4f58-80ee-1e933468a43a</webElementGuid>
+      <value>//h2</value>
+      <webElementGuid>f9b35b4f-12a4-496a-9252-212151e29631</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
-      <webElementGuid>e6b8da51-5b61-41aa-b534-4b8bf49692e7</webElementGuid>
+      <value>//h2</value>
+      <webElementGuid>71fac31b-d3b1-4e1a-b771-5f1a88224db9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Login' or . = 'Login')]</value>
+      <webElementGuid>3b7c66fb-b4c8-4241-99a5-8b666c2045d2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_fa fa-bars</name>
+   <name>div_col-sm-8</name>
    <tag></tag>
-   <elementGuidId>54baeb88-f3aa-4157-86fc-8faafdfebc20</elementGuidId>
+   <elementGuidId>9e28e3d3-e394-43fc-a1ab-41593542d03b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>.fa-bars</value>
+         <value>.form-group:nth-child(1) > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-group ') and (position() = 1)]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;&quot;i]</value>
+         <value>.col-sm-8 >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,39 +28,39 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
-      <webElementGuid>f78616b8-6fb3-498d-8d6f-ff8e97d6b5b7</webElementGuid>
+      <value>div</value>
+      <webElementGuid>a639188f-a0e2-4e4d-a993-75ee34ff6a00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-bars</value>
-      <webElementGuid>1b65052f-dbf4-4129-bf1f-735605ffcd37</webElementGuid>
+      <value>col-sm-8</value>
+      <webElementGuid>73413346-5d76-472d-90f0-b6c9f1c36d04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-560039917a3e8d1d57a47f2d00e1e6e8</value>
-      <webElementGuid>1b986d54-d6d1-40ed-a929-3feb2f3accf1</webElementGuid>
+      <value>md5.v1-3beee6407efe08b06fc018afe1005bb4</value>
+      <webElementGuid>986e9ced-19c9-4497-a640-b3bc0f5fb7b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
-      <webElementGuid>61607d5b-7b78-4f58-80ee-1e933468a43a</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-group ') and (position() = 1)]/div</value>
+      <webElementGuid>3ba54077-4327-4106-a368-03b1dd4fcfc8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
-      <webElementGuid>e6b8da51-5b61-41aa-b534-4b8bf49692e7</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-group ') and (position() = 1)]/div</value>
+      <webElementGuid>9ce29576-a1fd-4a9d-9b85-3117db912370</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Login</name>
+   <name>p_Copyright  CURA Healthcare Service 2026</name>
    <tag></tag>
-   <elementGuidId>621d2dfb-3b61-4aab-bd03-db67f4829e23</elementGuidId>
+   <elementGuidId>44af8353-b589-470e-880a-522b336228b2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@href = 'profile.php#login' and (text() = 'Login' or . = 'Login')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>[href=&quot;profile\.php\#login&quot;]</value>
+         <value>.text-muted</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@href = 'profile.php#login']</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-muted ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Login&quot;i]</value>
+         <value>internal:text=&quot;Copyright © CURA Healthcare Service 2026&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,63 +28,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>bda33a14-e80c-4133-9517-88d3b5fc7292</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>profile.php#login</value>
-      <webElementGuid>6c4fea0b-b8ef-4316-bc5a-8f99d49dce11</webElementGuid>
+      <value>p</value>
+      <webElementGuid>3927a82f-462a-4edb-a78f-44fc29f781eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>class</name>
       <type>Main</type>
-      <value>$('#menu-close').click();</value>
-      <webElementGuid>e55cce54-c6ac-4867-af4f-2389ebda7d73</webElementGuid>
+      <value>text-muted</value>
+      <webElementGuid>f7ad535a-fc3a-4245-b0c9-3b44ad6b7a6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>dbb4110c-15c7-4997-aff6-1bb55f822d0e</webElementGuid>
+      <value>Copyright © CURA Healthcare Service 2026</value>
+      <webElementGuid>f7fd9bdb-4dd4-4550-becd-3a77fc9df991</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-7bf1ef22e954ebd77cdc3ad6f4ff3cef</value>
-      <webElementGuid>9d9cb3d6-f0ba-4493-94c2-fb1c432bed5b</webElementGuid>
+      <value>md5.v1-27ae946f87dddfec72522c11a1a942ed</value>
+      <webElementGuid>77bef01c-fdf2-475f-a3b8-0568b006880f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@href = 'profile.php#login']</value>
-      <webElementGuid>901881ed-a9dc-47af-a3cf-639ffe30c501</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-muted ')]</value>
+      <webElementGuid>b069b53e-2a80-4a20-a4c2-5c727e4960ae</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@href = 'profile.php#login']</value>
-      <webElementGuid>0c2c01b4-da85-45ad-8e2e-34e900c9128c</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-muted ')]</value>
+      <webElementGuid>f0f94aa2-48c2-4b86-bce7-0706809839b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'profile.php#login' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>65304e85-fe85-4739-8090-69e5a0bd7a09</webElementGuid>
+      <value>//p[(text() = 'Copyright © CURA Healthcare Service 2026' or . = 'Copyright © CURA Healthcare Service 2026')]</value>
+      <webElementGuid>53bebee7-0a7b-4f35-8b7b-623eca0357c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Submit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9e802bdd-78f8-4d49-8600-597b83c61b24</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>322574e4-5e1b-4b6b-87b7-b3edf14d5e35</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1882af29-5c80-47ee-9e06-e5602e92119b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2c8214cb-1dc2-4dbb-a8b2-ec388b7a3764</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'No Comment'</defaultValue>
+      <description></description>
+      <id>322574e4-5e1b-4b6b-87b7-b3edf14d5e35</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'11/5/2030'</defaultValue>
+      <description></description>
+      <id>1882af29-5c80-47ee-9e06-e5602e92119b</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>2c8214cb-1dc2-4dbb-a8b2-ec388b7a3764</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+</TestCaseEntity>

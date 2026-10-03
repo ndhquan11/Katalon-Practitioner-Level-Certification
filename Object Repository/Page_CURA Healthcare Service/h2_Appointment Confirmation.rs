@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_fa fa-bars</name>
+   <name>h2_Appointment Confirmation</name>
    <tag></tag>
-   <elementGuidId>54baeb88-f3aa-4157-86fc-8faafdfebc20</elementGuidId>
+   <elementGuidId>7d2ad380-4bd4-4ed0-90df-e064ae72db1c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
+         <value>//*[(text() = 'Appointment Confirmation' or . = 'Appointment Confirmation')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.fa-bars</value>
+         <value>h2</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
+         <value>//h2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;&quot;i]</value>
+         <value>internal:role=heading[name=&quot;Appointment Confirmation&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,39 +32,47 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
-      <webElementGuid>f78616b8-6fb3-498d-8d6f-ff8e97d6b5b7</webElementGuid>
+      <value>h2</value>
+      <webElementGuid>c8d71bcb-77e2-47fc-bd8e-4c80d7f75780</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>text</name>
       <type>Main</type>
-      <value>fa fa-bars</value>
-      <webElementGuid>1b65052f-dbf4-4129-bf1f-735605ffcd37</webElementGuid>
+      <value>Appointment Confirmation</value>
+      <webElementGuid>35b12a70-f124-47cb-9407-cf2571ca75bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-560039917a3e8d1d57a47f2d00e1e6e8</value>
-      <webElementGuid>1b986d54-d6d1-40ed-a929-3feb2f3accf1</webElementGuid>
+      <value>md5.v1-96e021ee8fe4b2f311baceeb1509f3fe</value>
+      <webElementGuid>82861047-2de7-4cc1-9b46-200d92a50fe6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
-      <webElementGuid>61607d5b-7b78-4f58-80ee-1e933468a43a</webElementGuid>
+      <value>//h2</value>
+      <webElementGuid>c1182cc2-2b1f-46cd-8d81-cd6586f658ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa-bars ')]</value>
-      <webElementGuid>e6b8da51-5b61-41aa-b534-4b8bf49692e7</webElementGuid>
+      <value>//h2</value>
+      <webElementGuid>d09509dd-6a38-4717-94b1-795e3a3b501f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Appointment Confirmation' or . = 'Appointment Confirmation')]</value>
+      <webElementGuid>59065abb-6b57-4f6c-8b46-05225147dba9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

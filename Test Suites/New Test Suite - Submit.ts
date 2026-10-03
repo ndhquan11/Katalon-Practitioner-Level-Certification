@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>New Test Suite - Submit</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <numberOfRerun>3</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>efae0d76-6f6d-4d8d-8969-d1d9a9a82123</testSuiteGuid>
+   <testCaseLink>
+      <guid>4b835675-2e99-4ba8-85c7-c98bca74d068</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Submit</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2c994d4a-7eae-4198-88df-baa42cf4cc95</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/New Test Data 1</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>2c994d4a-7eae-4198-88df-baa42cf4cc95</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>comment</value>
+         <variableId>322574e4-5e1b-4b6b-87b7-b3edf14d5e35</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2c994d4a-7eae-4198-88df-baa42cf4cc95</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>date</value>
+         <variableId>1882af29-5c80-47ee-9e06-e5602e92119b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2c994d4a-7eae-4198-88df-baa42cf4cc95</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>facility</value>
+         <variableId>2c8214cb-1dc2-4dbb-a8b2-ec388b7a3764</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
