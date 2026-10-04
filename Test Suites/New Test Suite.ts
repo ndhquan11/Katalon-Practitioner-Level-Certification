@@ -14,13 +14,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>64af052e-7dde-4fd5-919b-e4c0d495d132</testSuiteGuid>
    <testCaseLink>
-      <guid>6b40b033-8180-45cb-87cd-f1fe38059a3f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/home/10.3</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>6e50d3cb-065c-4041-8dfa-3066cfd9e052</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -46,13 +39,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/home/New Test Case 1.4</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d324edc4-36f9-43c7-8550-983d65432f20</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/home/New Test Case 1.5 - Copy</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
